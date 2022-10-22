@@ -42,8 +42,8 @@ h1,h2,h3,h4,h5,h6 {font-family:'Montserrat'}
           <a href="#help" class="w3-bar-item w3-button w3-hover-lime w3-small" style="font-weight:normal">&nbsp&nbsp How to get help for DESeq2</a>
           <a href="javascript:void(0)" onclick="myAccordion('standard workflow input data')" class="w3-bar-item w3-button w3-hover-lime w3-small" style="font-weight:normal">&nbsp&nbsp Input data <i class="fa fa-caret-down"></i></a>
           <div id="standard workflow input data" class="w3-hide">
-            <a href="#why" class="w3-bar-item w3-button w3-hover-khaki w3-small" style="font-weight:normal">&nbsp&nbsp&nbsp&nbsp Why un-normalized counts?</a>
-            <a href="#deseqdataset" class="w3-bar-item w3-button w3-hover-khaki w3-small" style="font-weight:normal">&nbsp&nbsp&nbsp&nbsp The DESeqDataSet</a>
+            <a href="#why" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-khaki w3-small" style="font-weight:normal">&nbsp&nbsp&nbsp&nbsp Why un-normalized counts?</a>
+            <a href="#deseqdataset" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-khaki w3-small" style="font-weight:normal">&nbsp&nbsp&nbsp&nbsp The DESeqDataSet</a>
           </div>
         </div>
     </div>
@@ -51,8 +51,8 @@ h1,h2,h3,h4,h5,h6 {font-family:'Montserrat'}
     <div>
         <a href="javascript:void(0)" onclick="myAccordion('variations')" class="w3-bar-item w3-button w3-hover-blue">Variations <i class="fa fa-caret-down"></i></a>
         <div id="variations" class="w3-hide">
-          <a href="#waldtestindividualsteps" class="w3-bar-item w3-button w3-hover-lime w3-small" style="font-weight:normal">&nbsp&nbsp Wald test individual steps</a>
-          <a href="#contrasts" class="w3-bar-item w3-button w3-hover-lime w3-small" style="font-weight:normal">&nbsp&nbsp Contrasts</a>
+          <a href="#waldtestindividualsteps" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-lime w3-small" style="font-weight:normal">&nbsp&nbsp Wald test individual steps</a>
+          <a href="#contrasts" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-lime w3-small" style="font-weight:normal">&nbsp&nbsp Contrasts</a>
         </div>
     </div>
     <a href="#theory" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-blue">Theory Behind DESeq2</a> 
